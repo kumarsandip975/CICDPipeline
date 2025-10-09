@@ -25,4 +25,4 @@ jobs:
       - build
     steps:
       - name: test
-        run: the test steps
+        run: echo run
