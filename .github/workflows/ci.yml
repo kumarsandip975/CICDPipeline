@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: setup the java project
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
 
-      - name: Run simple command
-        run: echo "CI/CD pipeline is running successfully!"
+      - name: Build the Maven
+        run:  mvn -B package --file pom.xml
