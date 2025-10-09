@@ -19,3 +19,10 @@ jobs:
 
       - name: Build the Maven
         run:  mvn -B package --file pom.xml
+  test:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - name: test
+        run: the test steps
