@@ -105,4 +105,4 @@ Each job will show logs for easy debugging and monitoring.
 
 **Tornov Dutta**  
 💼 *Aspiring Software Engineer | Java & Spring Boot Developer*  
-📧 [torno@gmail.com](mailto:shariqsd2003@gmail.com)
+📧 [tornov@gmail.com](mailto:tornovdutta@gmail.com)
